@@ -82,15 +82,17 @@ footer {
 }
 
 
-.container {
+#container {
     max-width: 600px;
     margin: 100px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #08418C;
+    color: #ffff;
 }
 
-.container h2 {
+#container h2 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -118,7 +120,7 @@ textarea {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #0B3D91;
+    background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -127,5 +129,6 @@ button {
 }
 
 button:hover {
-    background-color: #08418C;
+    background-color: #ffffff;
+    color: #000000;
 }
