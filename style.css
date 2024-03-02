@@ -57,6 +57,16 @@ nav ul li a:hover{
     height: auto;
 }
 
+.destaque a{
+    text-decoration: underline;
+    color: black;
+}
+
+.destaque a:hover{
+    font-weight: 700;
+    color: #4b4e55;
+}
+
 .destaque p{
     max-width: 30%;
 }
