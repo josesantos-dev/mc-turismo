@@ -16,28 +16,28 @@ header h1 {
     float: left;
 }
 
-nav{
+header nav{
     float: right;
 }
 
-nav ul {
+header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
     margin-right: 20px;
 }
 
-nav ul li a {
+header nav ul li a {
     color: #fff;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav ul li a:hover{
+header nav ul li a:hover{
     background-color: white;
     border-radius: 5px;
     color: black;
@@ -76,7 +76,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -131,4 +130,63 @@ button {
 button:hover {
     background-color: #ffffff;
     color: #000000;
+}
+
+.title-contato{
+    text-align: center;
+}
+
+#container-contato {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato-info,
+.formulario-contato {
+    flex: 1;
+}
+
+.contato-info h2,
+.formulario-contato h2 {
+    margin-top: 0;
+}
+
+.contato-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contato-info ul li {
+    margin-bottom: 10px;
+}
+
+.formulario-contato label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-contato input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.formulario-contato button {
+    padding: 10px 20px;
+    background-color: #0B3D91;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: #08418C;
 }
